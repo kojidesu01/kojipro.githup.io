@@ -1,0 +1,151 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.stmenu {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 18px;
+}
+.stmenu img {
+    border-radius: 30px;
+    height: 50px;
+    margin: -8px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    
+    
+}
+button {
+    padding: 10px 13px;
+    font-size: 1rem;
+    border: 10px;
+    cursor: pointer;
+    position: relative;
+    margin: 1px;
+    left: 20px;
+    bottom: 3px;
+    border-radius: 30px;
+    background: transparent;
+    color: #000;
+    
+}
+.top-box {
+    height: 65px;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    top: 10px;
+    bottom: auto;
+    background-color: transparent;
+}
+nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.b1-info {
+    color: #000;
+}
+body {
+    background-color: #0a192f;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.b2 {
+    text-align: center;
+    
+    
+}
+.b2 img {
+    border: 50%;
+    height: 300px;
+    
+}
+.jo {
+    color: #8892b0;
+}
+.mid-box {
+    height: 90px;
+}
+
+.word {
+    padding: 0.1px;
+    margin: 3%;
+}
+.word-info {
+    padding: 15px;
+    font-size: 20px;
+    align-items: flex-start;
+    
+}
+.w1-p {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+}
+.h-a {
+    display: flex;
+    margin: 10px 0 40px;
+    color: #e6f1ff;
+}
+.w1 {
+    margin-top: 10px;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+.imgw1 {
+    display: flex;
+    left: 0;
+}
+.w2 {
+    margin-top: 10px;
+    padding-top: 85px;
+    padding-bottom: 70px;
+}
+.w3 {
+    padding-top: 85px;
+    padding-bottom: 70px;
+    margin-top: 10px;
+}
+.w1-pic img {
+    height: 400px;
+}
+.novbar_bg {
+    z-index: 0;
+    width: 97%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: inset -1px -1px 1px 0.5px rgba(255, 0, 0, 0.765), inset 1px 1px 1px 2px rgb(46, 238, 46);
+    backdrop-filter: blur(1rem);
+    position: absolute;
+    top: 4px;
+    left: 21px;
+    bottom: 0%;
+    padding: 5px;
+}
+.MyP {
+    background-color: #fff;
+}
+.abt {
+    background-color: #fff;
+    margin-left: 10px;
+}
+.ct {
+    background-color: #fff;
+    margin-left: 10px;
+}
+.add {
+    background-color: #fff;
+    margin-left: 10px;
+}
